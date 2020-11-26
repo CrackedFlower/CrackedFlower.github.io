@@ -1,0 +1,241 @@
+
+header{
+    background-color: #BCA5E8;
+}
+body{
+    color: #281C2D;	
+    text-align: center;
+    background-image: url('Galaxias.jpg');
+    
+    background-size: cover;
+    height: 100%;
+}
+nav#navbar ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -3px;
+    left: -400px;
+}
+
+nav#navbar li{
+    display: inline-block;
+    background-color: #8155BA;
+    padding: 15px;
+    margin: 10px;
+    transition: backgorund-color 1s;
+}
+nav#navbar h1{
+display: none;
+}
+nav#navbar li:hover{
+    background-color: #281C2D ;
+}
+.progress-bar{
+    --progress: 70;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    left: 700pxs;
+  }
+  
+  .progress-bar::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color:#8155BA;
+  }
+  .progress-bar2{
+    --progress: 87;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    left: 700pxs;
+  }
+  
+  .progress-bar2::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color:#8155BA;
+  }
+  .progress-bar3{
+    --progress: 100;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    left: 700pxs;
+  }
+  
+  .progress-bar3::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color:#8155BA;
+  }
+
+  .progress-bar4{
+    --progress: 100;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    left: 700pxs;
+  }
+  
+  .progress-bar4::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color:#8155BA;
+  }
+  .progress-bar5{
+    --progress: 35;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    left: 700pxs;
+  }
+  
+  .progress-bar5::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color:#8155BA;
+  }
+
+  div#Interface_principal {
+      /*width: 500px;*/
+      margin: 50px;
+      padding: 50px;
+      background-color: #BEAFC2;
+      text-align: center;
+      font-size: large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  div#Barrinhas {
+    background-color: #BEAFC2;
+    outline: #281C2D;
+    width: 500px;
+    font-size: medium;
+    text-align: left;
+    padding: 5px;
+    margin: 50px;
+    float: left;
+  }
+  div#Barrinhas2 {
+    background-color: #BEAFC2;
+    outline: #281C2D;
+    width: 500px;
+    font-size: large;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 50px;
+    float: left;
+  }
+  div#Barrinhas3 {
+    background-color: #BEAFC2;
+    outline: #281C2D;
+    font-size: medium;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    float: left;
+  }
+  div#redes_sociais{
+    background-color: #BEAFC2;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px;
+  }
+  div#redes_sociais_textos{
+      text-align: left;
+      font-size: large;
+      font-style: italic;
+      margin-top: 50px;
+  }
+  div#Formulário{
+    background-color: #BEAFC2;
+    text-align: center;
+    font-size: 1.10rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control{
+      width: 50%;
+  }
+div#Form_txt{
+    text-align: justify;
+    font-size: 1.10rem;
+    width: 60%;
+    margin: auto;
+
+}
+div#Tudo_form{
+    background-color: #BEAFC2;
+}
+.button {
+    border-radius: 4px;
+    background-color:  #8155BA;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  * {box-sizing:border-box}
+
+div#foto{
+    float: right;
+    margin-right: 350px;
+    outline: #281C2D;
+    padding: 50px;
+    background-color: #BEAFC2 ;
+}
+div#babi{
+    text-align: center;
+    font-size: large;
+    background-color: #BEAFC2;
+    padding: 40px;
+}
+
+div#carouselExampleIndicators{
+    background-color: #BEAFC2;
+    padding: 40px;
+    text-align: center;
+}
